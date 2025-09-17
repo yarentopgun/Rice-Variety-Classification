@@ -3,7 +3,10 @@
 The project focuses on classifying rice varieties using **two datasets**:
 
 - **Part I (`part_i.csv`)** → Tabular dataset with 106 numerical features per sample.  
-- **Part II (`part_ii`)** → Image dataset of rice grains, requiring feature extraction for classification.
+- **Part II (`part_ii`)** → Image dataset of rice grains, requiring feature extraction for classification.  
+
+📂 Both datasets can be downloaded from the following link:  
+[Download datasets (Google Drive)](https://drive.google.com/file/d/1YKJf28t_B3DhZlzeabFBlC2aM9Kottk3/view?usp=sharing)
 
 The notebook: **`rice-classification.ipynb`**
 
@@ -28,7 +31,7 @@ We implement multiple algorithms and evaluate them on both tabular and image-bas
 
 - **Validation:**  
   - 80/20 Train-Test split  
-  - k-Fold Cross Validation (k=5):contentReference[oaicite:0]{index=0}
+  - k-Fold Cross Validation (k=5)
 
 ---
 
@@ -48,7 +51,7 @@ We implement multiple algorithms and evaluate them on both tabular and image-bas
   - Thresholded binary representations.  
   - Additional methods (texture, shape features).  
 - Models: Same as Part I (kNN, Naive Bayes, Random Forest, SVM).  
-- Evaluation with both raw and extracted features:contentReference[oaicite:1]{index=1}.
+- Evaluation with both raw and extracted features.
 
 ---
 
